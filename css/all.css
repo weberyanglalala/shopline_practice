@@ -1,0 +1,133 @@
+body {
+    background-color: #fff;
+}
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+/* header */
+.header {
+    padding: 90px 0;
+}
+.h2-title {
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header .content {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+/* main */
+.illustrate {
+    width: 100%;
+    display: flex;
+    margin-bottom: 32px;
+}
+.illustrate:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.illustrate .description {
+    width: 50%;
+}
+.description .h3-title {
+    font-size: 36px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.description .tilde {
+    width: 48px;
+    margin-bottom: 20px;
+}
+.description p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.feature-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+.feature-group .feature {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.feature .icon {
+    width: 26px;
+    height: auto;
+    margin-right: 4px;
+}
+.feature .feature-description {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.description a {
+    text-decoration: none;
+}
+.description .check-all {
+    display: flex;
+    align-items: center;
+    color: #0061ff;
+}
+.description .check-all .icon {
+    width: 20px;
+    height: auto;
+    margin-left: 8px;
+}
+.illustrate .picture {
+    width: 50%;
+}
+
+/* More */
+.more {
+    background-color: #f4f5f7;
+    padding: 100px 0;
+}
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service {
+    width: 300px;
+    margin: 20px 58px;
+    text-align: center;
+}
+.service-pic {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 0 0 50px #ccc;
+}
+.service-pic img {
+    width: 72px;
+    height: auto;
+    margin: auto;
+}
+.service .h3-title {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.service p {
+    font-size: 16px;
+    line-height: 1.8;
+}
