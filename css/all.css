@@ -83,10 +83,37 @@ img {
     align-items: center;
     color: #0061ff;
 }
-.description .check-all .icon {
-    width: 20px;
-    height: auto;
+
+
+.icon-arrow {
     margin-left: 8px;
+    display: inline-block;
+    width: 16px;
+    height: 1.5px;
+    background-color: #0061ff;
+    position: relative;
+    transition: width .5s ease;
+}
+.icon-arrow::before, .icon-arrow::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 1.5px;
+    background-color: #0061ff;
+    position: absolute;
+}
+.icon-arrow::before {
+    transform: rotate(45deg);
+    top: -3px;
+    right: -2px;
+}
+.icon-arrow::after {
+    transform: rotate(135deg);
+    top: 3px;
+    right: -2px;
+}
+.check-all:hover .icon-arrow {
+    width: 32px;
 }
 .illustrate .picture {
     width: 50%;
