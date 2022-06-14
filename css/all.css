@@ -63,6 +63,7 @@ img {
 .feature-group .feature {
     width: 50%;
     display: flex;
+    padding: 4px 0;
 }
 
 .feature .feature-description {
@@ -108,9 +109,9 @@ img {
 .description .check-all {
     display: flex;
     align-items: center;
+    width: 200px;
     color: #0061ff;
 }
-
 
 .icon-arrow {
     margin-left: 8px;
@@ -139,15 +140,18 @@ img {
     top: 3px;
     right: -2px;
 }
-.check-all:hover .icon-arrow {
+
+.check-all:hover > .icon-arrow {
     width: 32px;
 }
+
 .illustrate .picture {
     width: 50%;
 }
 
 /* More */
 .more {
+    width: 100%;
     background-color: #f4f5f7;
     padding: 100px 0;
 }
