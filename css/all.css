@@ -63,16 +63,43 @@ img {
 .feature-group .feature {
     width: 50%;
     display: flex;
-    align-items: center;
 }
-.feature .icon {
-    width: 26px;
-    height: auto;
-    margin-right: 4px;
-}
+
 .feature .feature-description {
+    display: inline-block;
     font-size: 16px;
-    line-height: 2;
+    line-height: 26px;
+    position: relative;
+}
+.feature .icon-check {
+    vertical-align: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    background-color: #ddebff;
+    position: relative;
+}
+.feature .icon-check::before, .feature .icon-check::after {
+    content: "";
+    display: inline-block;
+    background-color: #266dff;
+    position: absolute;
+}
+.feature .icon-check::before {
+    height: 2px;
+    width: 8px;
+    transform: rotate(45deg);
+    top: 13px;
+    left: 4px;
+}
+.feature .icon-check::after {
+    height: 2px;
+    width: 13px;
+    transform: rotate(135deg);
+    top: 11px;
+    left: 8px;
 }
 
 .description a {
