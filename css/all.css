@@ -107,9 +107,8 @@ img {
     text-decoration: none;
 }
 .description .check-all {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    width: 200px;
     color: #0061ff;
 }
 
@@ -117,7 +116,7 @@ img {
     margin-left: 8px;
     display: inline-block;
     width: 16px;
-    height: 2px;
+    height: 1.8px;
     background-color: #0061ff;
     position: relative;
     transition: width .5s ease;
